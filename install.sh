@@ -1,6 +1,8 @@
 echo "Adding kirby plainkit as submodule";
 git submodule add https://github.com/getkirby/plainkit.git web
 
+echo "Installing kirby CLI";
+composer global require getkirby/cli
 
 #echo "get latest kirby core & modules...";
 #git submodule update --recursive --remote
@@ -22,6 +24,11 @@ ln -s ../custom/assets web/assets
 
 echo "copying robots.txt ...";
 cp  infrastructure/robots.txt web/robots.txt
+
+echo "Installing kirby plugin: kirby-selector";
+cd web;
+kirby plugin:install storypioneers/kirby-selector -n
+kirby plugin:install storypioneers/kirby-wysiwyg -n
 
 echo "";
 echo "*********************************************************";
