@@ -1,0 +1,31 @@
+echo "Adding kirby plainkit as submodule";
+git submodule add https://github.com/getkirby/plainkit.git web
+
+
+#echo "get latest kirby core & modules...";
+#git submodule update --recursive --remote
+
+# for git > 1.7.3
+# git submodule update --init --recursive
+
+echo "linking site ...";
+rm -rf web/site
+ln -s ../custom/site web/site
+
+echo "linking content ...";
+rm -rf web/content
+ln -s ../custom/content web/content
+
+echo "linking assets ...";
+rm -rf web/assets
+ln -s ../custom/assets web/assets
+
+echo "copying robots.txt ...";
+cp  infrastructure/robots.txt web/robots.txt
+
+echo "";
+echo "*********************************************************";
+echo "";
+echo "Installation completed. Maybe you wanna run now 'run.sh'...";
+echo "";
+echo "*********************************************************";

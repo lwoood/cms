@@ -1,0 +1,12 @@
+title: Sitemap
+
+pages: false
+
+files: false
+
+icon: sitemap
+
+fields:
+  title:
+    label: Titel
+    type:  text

@@ -1,0 +1,12 @@
+title: Site
+
+pages: true
+    
+fields:
+  title:
+    label: Titel
+    type:  text
+    width: 1/2
+  site_html:
+    label: Seitenweiter HTML-Code
+    type: textarea
