@@ -2,6 +2,8 @@ title: Error
 
 pages: false
 
+icon: exclamation-circle 
+
 fields:
   title:
     label: Title

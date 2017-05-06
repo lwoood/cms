@@ -2,6 +2,8 @@ title: Home
 
 pages: false
 
+icon: home
+
 fields:
   title:
     label: Titel

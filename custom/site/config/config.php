@@ -43,11 +43,11 @@ c::set('languages', [
     'name'    => 'Deutsch',
     'default' => true,
     'locale'  => 'de_DE',
-    'url'     => '/de',
+    'url'     => '/',
   ], [
     'code'    => 'en',
     'name'    => 'English',
     'locale'  => 'en_US',
-    'url'     => '/',
+    'url'     => '/en',
   ]
 ]);
