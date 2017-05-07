@@ -25,10 +25,14 @@ ln -s ../custom/assets web/assets
 echo "copying robots.txt ...";
 cp  infrastructure/robots.txt web/robots.txt
 
-echo "Installing kirby plugin: kirby-selector";
+echo "Installing some kirby plugins";
 cd web;
-kirby plugin:install storypioneers/kirby-selector -n
-kirby plugin:install storypioneers/kirby-wysiwyg -n
+kirby plugin:install storypioneers/kirby-selector
+kirby plugin:install JonasDoebertin/kirby-visual-markdown
+kirby plugin:install 1n3JgKl9pQ6cUMrW/kirby-tabs
+
+echo "Creating user 'admin' with password 'admin'";
+kirby make:user -u admin -p admin
 
 echo "";
 echo "*********************************************************";
