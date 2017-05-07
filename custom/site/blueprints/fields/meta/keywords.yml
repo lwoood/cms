@@ -1,0 +1,5 @@
+label: Meta keywords
+type: tags
+help:
+  de: max. ~10, absteigend nach Wichtigkeit sortiert, komma-separiert. Max. 255 Zeichen
+  en: max. ~10, descending by importance, comma-separated. Max. 255 characters

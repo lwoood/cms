@@ -7,6 +7,10 @@ files: false
 icon: sitemap
 
 fields:
-  title:
-    label: Titel
-    type:  text
+
+###############################################
+
+  content_tab: content/tab
+
+  title: content/title
+

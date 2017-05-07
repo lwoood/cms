@@ -3,10 +3,43 @@ title: Site
 pages: true
     
 fields:
-  title:
-    label: Titel
-    type:  text
-    width: 1/2
-  site_html:
-    label: Seitenweiter HTML-Code
-    type: textarea
+
+  ###############################################
+
+  content_tab: content/tab
+
+  title: content/title
+  content_copyright: content/copyright
+
+  ###############################################  
+  
+  meta_tab: meta/tab
+
+  meta_headline: meta/headline
+  meta_description: meta/description
+  meta_keywords: meta/keywords
+
+  ###############################################
+
+  tracking_tab: tracking/tab
+
+  tracking_ga_headline: tracking/ga/headline
+  tracking_ga_enabled: tracking/ga/enabled
+  tracking_ga_account: tracking/ga/account
+  tracking_ga_anonymizeip: tracking/ga/anonymizeip
+
+  tracking_gtm_headline: tracking/gtm/headline
+  tracking_gtm_enabled: tracking/gtm/enabled
+  tracking_gtm_account: tracking/gtm/account
+  
+  tracking_smartlook_headline: tracking/smartlook/headline
+  tracking_smartlook_enabled: tracking/smartlook/enabled
+  tracking_smartlook_account: tracking/smartlook/account
+  
+  ###############################################
+
+  custom_tab: custom/tab
+
+  custom_html: custom/html
+  custom_css: custom/css
+  custom_js: custom/js

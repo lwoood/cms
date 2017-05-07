@@ -5,6 +5,9 @@ pages: false
 icon: exclamation-circle 
 
 fields:
-  title:
-    label: Title
-    type:  text
+
+###############################################
+
+  content_tab: content/tab
+
+  title: content/title

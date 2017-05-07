@@ -1,0 +1,6 @@
+label: Status
+type: checkbox
+text:
+	de: Aktiviert
+	en: Activated
+width: 1/5

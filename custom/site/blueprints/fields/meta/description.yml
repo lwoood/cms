@@ -1,0 +1,8 @@
+label: Meta description
+type: textarea
+validate:
+  min: 140
+  max: 180
+help:
+  de: min. 140 und max. 180 Zeichen
+  en: min. 140 and max. 180 characters
