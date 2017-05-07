@@ -5,6 +5,9 @@ web/
 custom/site/accounts/
 
 
-# fields
+# ignore fields
 custom/site/fields/tab
 custom/site/fields/markdown
+
+# ignore plugins
+custom/site/plugins/field-selector
