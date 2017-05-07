@@ -1,4 +1,10 @@
+# ignore kirby directory
+web/
 
+# ignore some basics
 custom/site/accounts/
 
-web/
+
+# fields
+custom/site/fields/tab
+custom/site/fields/markdown
