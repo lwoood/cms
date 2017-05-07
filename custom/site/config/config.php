@@ -36,7 +36,6 @@ c::set('panel.widgets', array(
   'history'  => true,
 ));
 
-
 c::set('languages', [
   [
     'code'    => 'de',
@@ -51,3 +50,33 @@ c::set('languages', [
     'url'     => '/en',
   ]
 ]);
+
+/*
+* A/B Testing with multilanguage
+
+c::set('languages', [
+  [
+    'code'    => 'a',
+    'name'    => 'A',
+    'default' => true,
+    'locale'  => 'de_DE',
+    'url'     => '/',
+  ], [
+    'code'    => 'b',
+    'name'    => 'B',
+    'locale'  => 'de_DE',
+    'url'     => '/b',
+  ], [
+    'code'    => 'c',
+    'name'    => 'C',
+    'locale'  => 'de_DE',
+    'url'     => '/c',
+  ], [
+    'code'    => 'd',
+    'name'    => 'D',
+    'locale'  => 'de_DE',
+    'url'     => '/d',
+  ]
+]);
+
+*/
