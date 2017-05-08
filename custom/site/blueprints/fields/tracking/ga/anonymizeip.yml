@@ -1,6 +1,6 @@
 label: anonymizeIp
-type: checkbox
+type: switch
 text:
-	de: Aktiviert
-	en: Activated
+    - Aktiviert
+    - Deaktiviert
 width: 1/5
