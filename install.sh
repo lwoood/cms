@@ -32,6 +32,7 @@ kirby plugin:install JonasDoebertin/kirby-visual-markdown
 kirby plugin:install 1n3JgKl9pQ6cUMrW/kirby-tabs
 #kirby plugin:install distantnative/panel-bar
 kirby plugin:install distantnative/field-switch
+kirby plugin:install SebastianEberlein/kirby-markdown-field
 
 echo "Creating user 'admin' with password 'admin'";
 kirby make:user -u admin -p admin
