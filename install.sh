@@ -35,6 +35,10 @@ kirby plugin:install SebastianEberlein/kirby-markdown-field
 #kirby plugin:install JonasDoebertin/kirby-visual-markdown # for more WYSIWYG feeling
 kirby plugin:install JonasDoebertin/kirby-range-slider
 
+# Like Buttons
+kirby plugin:install jenstornell/kirby-nja
+mv site/plugins/kirby-nja/assets assets/plugins/kirby-nja/
+
 # Panel bar
 kirby plugin:install distantnative/panel-bar
 mv site/plugins/panel-bar/assets assets/plugins/panel-bar/

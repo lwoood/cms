@@ -17,6 +17,8 @@ custom/site/fields/rangeslider
 # ignore kirby plugins
 custom/site/plugins/field-selector
 custom/site/plugins/field-switch/
+custom/site/plugins/kirby-nja/
+custom/assets/plugins/kirby-nja/
 custom/site/plugins/panel-bar/
 custom/assets/plugins/panel-bar/
 
