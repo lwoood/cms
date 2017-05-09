@@ -11,6 +11,7 @@ custom/site/cache/
 # ignore kirby fields
 custom/site/fields/tab
 custom/site/fields/markdown
+custom/site/fields/fieldtoggle
 
 # ignore kirby plugins
 custom/site/plugins/field-selector

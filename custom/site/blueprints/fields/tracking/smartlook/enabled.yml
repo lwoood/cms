@@ -1,6 +1,6 @@
 label: Status
-type: checkbox
-text:
-	de: Aktiviert
-	en: Activated
+type: switch
+texts:
+    - Aktiviert
+    - Deaktiviert
 width: 1/5

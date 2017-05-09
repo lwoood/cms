@@ -31,6 +31,8 @@ kirby plugin:install storypioneers/kirby-selector
 kirby plugin:install 1n3JgKl9pQ6cUMrW/kirby-tabs
 kirby plugin:install distantnative/field-switch
 kirby plugin:install SebastianEberlein/kirby-markdown-field
+kirby plugin:install medienbaecker/kirby-fieldtoggle
+
 # for mor WYSIWYG feeling
 #kirby plugin:install JonasDoebertin/kirby-visual-markdown
 
