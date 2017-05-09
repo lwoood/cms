@@ -2,7 +2,7 @@
 /nbproject
 
 # ignore kirby directory
-#web/
+web/
 
 # ignore some kirby basics
 custom/site/accounts/
