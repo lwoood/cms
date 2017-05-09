@@ -4,10 +4,14 @@ web/
 # ignore some basics
 custom/site/accounts/
 
-
 # ignore fields
 custom/site/fields/tab
 custom/site/fields/markdown
 
 # ignore plugins
 custom/site/plugins/field-selector
+custom/site/plugins/panel-bar/
+custom/site/plugins/field-switch/
+
+# ignore netbeans files
+/nbproject
