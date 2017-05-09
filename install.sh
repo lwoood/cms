@@ -26,7 +26,7 @@ echo "copying robots.txt ...";
 cp  infrastructure/robots.txt web/robots.txt
 
 echo "Installing some kirby plugins";
-git submodule add https://github.com/JonasDoebertin/kirby-code-editor.git web/site/fields/codeeditor
+git submodule add -f https://github.com/JonasDoebertin/kirby-code-editor.git web/site/fields/codeeditor
 
 cd web;
 kirby plugin:install storypioneers/kirby-selector
