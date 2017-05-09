@@ -26,12 +26,15 @@ echo "copying robots.txt ...";
 cp  infrastructure/robots.txt web/robots.txt
 
 echo "Installing some kirby plugins";
+git submodule add https://github.com/JonasDoebertin/kirby-code-editor.git web/site/fields/codeeditor
+
 cd web;
 kirby plugin:install storypioneers/kirby-selector
 kirby plugin:install 1n3JgKl9pQ6cUMrW/kirby-tabs
 kirby plugin:install distantnative/field-switch
 kirby plugin:install SebastianEberlein/kirby-markdown-field
 kirby plugin:install medienbaecker/kirby-fieldtoggle
+
 
 # for mor WYSIWYG feeling
 #kirby plugin:install JonasDoebertin/kirby-visual-markdown
