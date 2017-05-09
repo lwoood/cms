@@ -1,17 +1,20 @@
 # ignore kirby directory
 web/
 
-# ignore some basics
+# ignore some kirby basics
 custom/site/accounts/
+custom/site/cache/
 
-# ignore fields
+# ignore kirby fields
 custom/site/fields/tab
 custom/site/fields/markdown
 
-# ignore plugins
+# ignore kirby plugins
 custom/site/plugins/field-selector
-custom/site/plugins/panel-bar/
 custom/site/plugins/field-switch/
+custom/site/plugins/panel-bar/
 
 # ignore netbeans files
 /nbproject
+
+
