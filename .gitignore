@@ -1,5 +1,5 @@
 # ignore kirby directory
-#web/
+web/
 
 # ignore some basics
 custom/site/accounts/
