@@ -29,11 +29,14 @@ echo "Installing some kirby plugins";
 cd web;
 kirby plugin:install storypioneers/kirby-selector
 kirby plugin:install 1n3JgKl9pQ6cUMrW/kirby-tabs
-kirby plugin:install distantnative/panel-bar
 kirby plugin:install distantnative/field-switch
 kirby plugin:install SebastianEberlein/kirby-markdown-field
 # for mor WYSIWYG feeling
 #kirby plugin:install JonasDoebertin/kirby-visual-markdown
+
+# Panel bar
+kirby plugin:install distantnative/panel-bar
+mv site/plugins/panel-bar/assets assets/plugins/panel-bar/
 
 echo "Creating user 'admin' with password 'admin'";
 kirby make:user -u admin -p admin

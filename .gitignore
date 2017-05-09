@@ -1,3 +1,6 @@
+# ignore netbeans files
+/nbproject
+
 # ignore kirby directory
 web/
 
@@ -13,8 +16,10 @@ custom/site/fields/markdown
 custom/site/plugins/field-selector
 custom/site/plugins/field-switch/
 custom/site/plugins/panel-bar/
+custom/assets/plugins/panel-bar/
 
-# ignore netbeans files
-/nbproject
+
+
+
 
 
