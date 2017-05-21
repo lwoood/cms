@@ -1,6 +1,6 @@
 
 
-    <?php snippet('plugin.panelBar') ?>
+    <?php //snippet('plugin.panelBar') ?>
 
 </body>
 </html>

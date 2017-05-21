@@ -27,6 +27,7 @@ cp  infrastructure/robots.txt web/robots.txt
 
 echo "Installing some kirby plugins";
 cd web;
+kirby plugin:install Thiousi/kirby-version-widget
 kirby plugin:install storypioneers/kirby-selector
 kirby plugin:install 1n3JgKl9pQ6cUMrW/kirby-tabs
 kirby plugin:install distantnative/field-switch
@@ -46,6 +47,12 @@ mv site/plugins/kirby-nja/assets assets/plugins/kirby-nja/
 # Panel bar
 kirby plugin:install distantnative/panel-bar
 mv site/plugins/panel-bar/assets assets/plugins/panel-bar/
+
+# Cache widget
+# noch buggy. installiert ins falsche verzeichnis.
+#kirby plugin:install omz13/kirby-cache-widgets
+
+
 
 echo "Creating user 'admin' with password 'admin'";
 kirby make:user -u admin -p admin

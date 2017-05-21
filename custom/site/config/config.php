@@ -33,9 +33,9 @@ c::set('debug', false);
 
 c::set('panel.widgets', array(
   'pages'    => true,
-  'site'     => true,
-  'account'  => true,
-  'history'  => true,
+  'site'     => false,
+  'account'  => false,
+  'history'  => false,
 ));
 
 c::set('languages', [
