@@ -35,6 +35,10 @@ kirby plugin:install SebastianEberlein/kirby-markdown-field
 #kirby plugin:install JonasDoebertin/kirby-visual-markdown # for more WYSIWYG feeling
 kirby plugin:install JonasDoebertin/kirby-range-slider
 
+# Forms
+kirby plugin:install mzur/kirby-uniform
+kirby plugin:install fetzi/kirby-uniform-recaptcha
+
 # Like Buttons
 kirby plugin:install jenstornell/kirby-nja
 mv site/plugins/kirby-nja/assets assets/plugins/kirby-nja/
