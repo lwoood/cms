@@ -1,0 +1,6 @@
+label: Status
+type: switch
+texts:
+    - Aktiviert
+    - Deaktiviert
+width: 1/5

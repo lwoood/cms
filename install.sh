@@ -37,7 +37,7 @@ kirby plugin:install JonasDoebertin/kirby-range-slider
 
 # Forms
 kirby plugin:install mzur/kirby-uniform
-kirby plugin:install fetzi/kirby-uniform-recaptcha
+#skirby plugin:install fetzi/kirby-uniform-recaptcha
 
 # Like Buttons
 kirby plugin:install jenstornell/kirby-nja

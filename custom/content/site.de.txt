@@ -10,7 +10,7 @@ Meta-keywords: Keyword 1,Keyword 2,Keyword 3,Keyword 4
 
 ----
 
-Tracking-ga-enabled: 0
+Tracking-ga-enabled: false
 
 ----
 
@@ -18,11 +18,11 @@ Tracking-ga-account:
 
 ----
 
-Tracking-ga-anonymizeip: 0
+Tracking-ga-anonymizeip: false
 
 ----
 
-Tracking-gtm-enabled: 0
+Tracking-gtm-enabled: false
 
 ----
 
@@ -30,7 +30,7 @@ Tracking-gtm-account:
 
 ----
 
-Tracking-smartlook-enabled: 0
+Tracking-smartlook-enabled: false
 
 ----
 
@@ -51,3 +51,11 @@ Custom-css:
 ----
 
 Custom-js: 
+
+----
+
+Apis-tinypng-enabled: true
+
+----
+
+Apis-tinypng-key: qDsGeE7oll_po8M9cl26ORS5DjzaRQXi

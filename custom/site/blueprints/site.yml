@@ -35,6 +35,13 @@ fields:
   tracking_smartlook_headline: tracking/smartlook/headline
   tracking_smartlook_enabled: tracking/smartlook/enabled
   tracking_smartlook_account: tracking/smartlook/account
+
+  ###############################################
+
+  apis_tab: apis/tab
+  apis_tinypng_headline: apis/tinypng/headline
+  apis_tinypng_enabled: apis/tinypng/enabled
+  apis_tinypng_key: apis/tinypng/key
   
   ###############################################
 
