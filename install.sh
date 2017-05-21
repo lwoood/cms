@@ -28,6 +28,7 @@ cp  infrastructure/robots.txt web/robots.txt
 echo "Installing some kirby plugins";
 cd web;
 kirby plugin:install Thiousi/kirby-version-widget
+kirby plugin:install jenstornell/kirby-panel-prevnext
 kirby plugin:install storypioneers/kirby-selector
 kirby plugin:install 1n3JgKl9pQ6cUMrW/kirby-tabs
 kirby plugin:install distantnative/field-switch

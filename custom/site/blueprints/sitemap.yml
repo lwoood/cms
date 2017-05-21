@@ -8,9 +8,14 @@ icon: sitemap
 
 fields:
 
+  prevnext_top: prevnext
+
 ###############################################
 
   content_tab: content/tab
 
   title: content/title
 
+###############################################
+
+  prevnext_bottom: prevnext

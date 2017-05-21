@@ -1,6 +1,8 @@
 title: Seite
 
 fields:
+  
+  prevnext_top: prevnext
 
 ###############################################
 
@@ -9,3 +11,7 @@ fields:
   title: content/title
 
   text:  content/text_markdown
+
+###############################################
+
+  prevnext_bottom: prevnext
